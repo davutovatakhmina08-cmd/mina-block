@@ -1,0 +1,39 @@
+body {
+    color: red;
+    text-align: center;
+}
+.block-1 {
+    width: 300px;
+    height: 250px;
+    background-color: aqua;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    padding:50px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/015/132/071/non_2x/abstract-the-cyan-background-for-design-hd-wallpaper-free-vector-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 20px;
+}
+.block-1 h3 {
+    color: bisque;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
